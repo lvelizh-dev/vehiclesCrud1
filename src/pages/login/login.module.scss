@@ -1,0 +1,53 @@
+.hola {
+    background-color: green;
+}
+
+.login_container {
+    // display: flex;
+
+    // place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.login_card {
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 12px;
+    height: 400px;
+    width: 400px;
+}
+
+.login_inputs {
+    width: 200px;
+    margin: 0 auto;
+   }
+
+.login_username {
+    width: 100%;
+    margin-bottom: 12px;
+    // padding: 12px;
+    padding: 4px 6px;
+    border-radius: 4px;
+}
+
+.login_username_label {
+    text-align: left;
+}
+
+.login_password_label {
+    text-align: left;
+}
+
+.login_password {
+    width: 100%;
+    margin-bottom: 12px;
+    // padding: 12px;
+    padding: 4px 6px;
+    border-radius: 4px;
+
+}
